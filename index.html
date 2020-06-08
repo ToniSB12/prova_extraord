@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Get Fit</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Homemade+Apple&family=Montserrat:ital,wght@0,300;1,900&display=swap" rel="stylesheet">
+
+    <style type="text/css">
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+
+            width: auto;
+            height: 100vh;
+            background-image: url(img/fondo.svg);
+            font-family: 'montserrat', sans-serif;
+            font-size: 13px;
+            display: flex;
+            align-content: center;
+            justify-content: center;
+            align-items: center;
+            padding-top: 10px;
+            float: left;
+        }
+
+        .container {
+            display: flex;
+            background: radial-gradient(farthest-corner at 45px 45px, #303030 50%, #000000 100%);
+            box-shadow: black;
+            box-shadow: 0 0 80px black;
+            width: 70wh;
+            height: 85vh;
+            flex-direction: row;
+            overflow: hidden;
+            margin: 6em;
+        }
+
+        nav {
+            width: 200%;
+            padding: 60px 100px;
+            display: flex;
+            justify-content: space-between;
+            position:fixed;
+            background: var(--terra);
+            float: left;
+        }
+
+        nav h1 {
+            float: left;
+            color: var(--rosa);
+            font-family: 'Homemade Apple', cursive;
+            font-size: 10px;
+            display: flex;
+
+        }
+
+        navigation padding: 10px 0 0 0;
+        }
+
+        .navigation a {
+            margin: 0 30px 0 0;
+            color: white;
+            transition: 0.3s color;
+            margin: 0 20px 0 0;
+            padding: 10px;
+            justify-content: space-around
+        }
+
+        nav a,
+        nav h1 {
+            font-size: 15px;
+            font-weight: 900;
+            padding-right: 100px;
+            color: white;
+
+
+        }
+
+        nav a:last-child img {
+            width: 25px;
+            height: 30px;
+        }
+
+        .text {
+            display: grid;
+            justify-content: left;
+
+            /*grid-gap: 0.2em;*/
+
+            grid-template-rows: 0.fr 0.1fr 0.1fr 0.9fr 0fr;
+            width: 70%;
+            height: 10px;
+            padding: 10em 1.9em 20em 17em;
+            margin:6em;
+            justify-content: space-between;
+            margin-right: 110px;
+            margin-left: 70px;
+            padding-left: 10px;
+        }
+
+
+        .ilustracio1 {
+            float: left;
+            display: flex;
+            object-position: left;
+            width: 60%;
+            height: 200vh;
+            padding-bottom: 10px;
+        }
+
+        .ilustracio1 img {
+            width: 80vh;
+            height: 110vh;
+            object-fit: cover;
+            object-position: r;
+
+        }
+
+
+        h1 {
+            font-size: 1.2em;
+            color: white;
+            font-family: 'Roboto', sans-serif;
+            font-weight: 700;
+            float: top;
+            display: flex;
+            margin-left: 200px
+        }
+
+        .boto {
+            display: grid;
+            font-family: 'Montserrat', sans-serif;
+            font-size: 1.2em;
+            font-weight: 10000;
+            color: white;
+            background: orange;
+            padding: 0em;
+            border-radius: 122px;
+            text-align: center;
+            align-items: center;
+            width: 15em;
+            height: 3em;
+            box-shadow: 0 0 20px black;
+            margin-left: 120px;
+        }
+
+
+        h2 {
+            font-family: 'montserrat', sans-serif;
+            font-size: 9em;
+            font-weight: 5000;
+            color: white;
+            width: inherit;
+        }
+
+        h3 {
+            font-family: 'Roboto', sans-serif;
+            font-size: 3em;
+            font-weight: 100;
+            color: royalblue;
+
+        }
+
+
+        p {
+            font-family: 'Roboto', sans-serif;
+            font-size: 1em;
+            font-weight: 200;
+            color: grey;
+            line-height: 1.3em;
+            text-align:justify;
+            padding-right: 180px;
+        }
+
+
+
+
+
+
+        @media (max-width:600px) {
+            .container {
+                font-size: 0.4em;
+                width: 80%;
+                height: 40vh;
+                margin: 1em;
+            }
+
+
+            .text {
+                height: 35vh;
+            }
+
+
+            .ilustracio1 {
+                height: 40vh;
+            }
+
+            .ilustracio img height: 40vh;
+
+
+        }
+        
+
+
+        }
+
+    </style>
+
+</head>
+
+<body>
+    <div class="container">
+        <nav>
+            <div class="navigation">
+                <a href="#">
+                    <h1>FitWeb</h1>
+                </a>
+                <a href="#">Main</a>
+                <a href="#">About</a>
+                <a href="#">Service</a>
+                <a href="#">Faq</a>
+                <a href="#">Contact</a>
+            </div>
+        </nav>
+
+        <div class="ilustracio1">
+            <img src="img/ilus3.svg" alt="ilustracio">
+        </div>
+
+        <div class="text">
+
+
+            <b><i>
+                    <h2>Get Fit</h2>
+                </i></b>
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
+            <div class="boto">Start now</div>
+
+        </div>
+
+
+
+    </div>
+
+
+</body>
+
+
+</html>
